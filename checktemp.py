@@ -104,7 +104,7 @@ if __name__ == '__main__':
             lcd.clear()
             GPIO.cleanup()
             cam.release()
-            cv2.destroyAllWindows
+            cv2.destroyAllWindows()
             bus.close()
             sys.exit(0)
         except:
